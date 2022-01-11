@@ -13,11 +13,79 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- CONTENUTO DELLA PAGINA -->
+
+    <!-- HEADER -->
+    <header>
+        <!-- NAVBAR ESPANSA + NAVBAR FONDO SCURO + FISSA IN ALTO -->
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <div class="container py-2">
 
 
+                <!-- LOGO + FONT WEIGHT + FONT SIZE -->
+                <a class="navbar-brand fw-bold fs-4" href="#">START BOOTSTRAP</a>
+                <!-- BUTTON HAMBURGER NAV MOBILE -->
+                <button class="navbar-toggler" type="button">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
+                <!-- NASCONDI CONTENUTO NAVBAR -->
+                <div class="collapse navbar-collapse flex-grow-0">
+                    <!-- A TUTTA ALTEZZA + SPAZIATURA UGUALE TRA ELEMENTI + MARGIN BOTTOM -->
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <!-- ELEMENTI NAVBAR + LINK ATTIVI + FONT WEIGHT BOLD -->
+                      <li class="nav-item">
+                        <a class="nav-link active fw-bold" href="#">PORTFOLIO</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active fw-bold" href="#">ABOUT</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active fw-bold" href="#">CONTACT</a>
+                      </li>
+                    </ul>
+                  </div>
+                  
+            </div>
+        </nav>
+    </header>
+    <!-- FINE HEADER -->
 
+    <!-- MAIN -->
+    <main>
+
+        <!-- JUMBOTRON + PADDING -->
+        <section class="jumbotron py-5">
+            <div class="container">
+                <!-- CONTENUTI CENTRATI -->
+                <div class="row justify-content-center">
+                    <!-- LARGHEZZA COLONNA CONTENUTI CENTRATI -->
+                    <div class="col col-md-8 col-lg-6">
+                        <div class="row flex-column align-items-center">
+                            <!-- LARGHEZZA COLONNA PER IMAGE -->
+                            <div class="col-7 col-lg-5">
+                                <img src="img/avatar.svg" alt="avatar">
+                            </div>
+
+                            <!-- TITOLO  -->
+                            <div class="col">
+                                <h1 class="text-center text-light fw-bold">START BOOTSTRAP</h1>
+                            </div>
+
+                            <!-- BAR + STELLINA + BAR - DISPLAY FLEX + CENTRATURA -->
+                            <div class="d-flex justify-content-center align-items-center py-2 col-7">
+                                <div class="bar bg-white"></div>
+                                <i class="bi bi-star-fill text-light px-3"></i>
+                                <div class="bar bg-white"></div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <!-- FINE MAIN -->
 
       
     <!-- LINK JAVASCRIPT DI BOOTSTRAP -->

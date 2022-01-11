@@ -1,0 +1,23 @@
+/* REGOLE COMMON */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+/* HEADER BACKGROND COLOR */
+header{
+    background-color: #2C3E50;
+  }
+
+/* JUMBOTRON BACKGROND COLOR */
+.jumbotron{
+    background-color: #1ABC9C;
+}
+
+
+.bar{
+    width: 100px;
+    height: 3px;
+    border-radius: 20px;
+}
