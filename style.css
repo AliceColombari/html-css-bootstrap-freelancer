@@ -5,19 +5,24 @@
     padding: 0;
   }
 
-/* HEADER BACKGROND COLOR */
-header{
+/* HEADER + FOOTER BACKGROND COLOR */
+header, footer{
     background-color: #2C3E50;
   }
 
-/* JUMBOTRON BACKGROND COLOR */
-.jumbotron{
+/* JUMBOTRON + ABOUT BACKGROND COLOR */
+.jumbotron, .about{
     background-color: #1ABC9C;
 }
 
-
+/* SETTING BAR */
 .bar{
     width: 100px;
     height: 3px;
     border-radius: 20px;
+}
+
+/* FOOTER FIRST PART BACKGROND COLOR */
+.link{
+    background-color: #3A546D;
 }
