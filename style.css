@@ -26,3 +26,7 @@ header, footer{
 .ms_footer_top{
     background-color: #3A546D;
 }
+/* FOOTER TEXT COLOR */
+.green_text{
+    color: #1ABC9C;
+}
