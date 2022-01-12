@@ -11,7 +11,7 @@ header, footer{
   }
 
 /* JUMBOTRON + ABOUT BACKGROND COLOR */
-.jumbotron, .about{
+.jumbotron, .about, .green{
     background-color: #1ABC9C;
 }
 
@@ -23,6 +23,6 @@ header, footer{
 }
 
 /* FOOTER FIRST PART BACKGROND COLOR */
-.link{
+.ms_footer_top{
     background-color: #3A546D;
 }

@@ -222,12 +222,38 @@
                         </div>
                         <div class="bar bg-dark"></div>
                     </div>
+                </div>
 
-                    <!-- FORM -->
-                    <div class="row justify-content-center">
+                <!-- STRUTTURA FORM -->
+                <div class="row justify-content-center">
+                    <div class="col-8">
+                        <!-- FORM DIVERSE TIPOLOGIE -->
+                        <div class="form-floating mb-3">
+                            <!-- elimino il bordo con border-0 e lo inserisco solo sotto con border-bottom -->
+                            <input type="text" class="form-control border-0 border-bottom" id="floatingName" placeholder="name@example.com">
+                            <label for="floatingName">Name</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control border-0 border-bottom" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput">Email Address</label>
+                        </div>
+                        <div class="form-floating">
+                            <input type="text" class="form-control border-0 border-bottom" id="floatingName" placeholder="Name">
+                            <label for="floatingName">Phone Number</label>
+                        </div>
+                        
+                        <div class="form-floating">
+                            <textarea class="form-control border-0 border-bottom" placeholder="Leave a comment here" id="floatingTextarea" style="min-height: 200px;"></textarea>
+                            <label for="floatingTextarea">Message</label>
+                          </div>
 
+                        <!-- BOTTONE FORM -->
+                        <div class="col">
+                            <button type="submit" class="btn btn-primary border-0 green my-3">Send</button>
+                        </div>
                     </div>
                 </div>
+
             </div>
         </section>
         <!-- FINE CONTACT ME -->
@@ -238,17 +264,27 @@
 
     <!-- FOOTER -->
     <footer>
-        <div class="container-fluid link">
-            <div class="row justify-content-center">
-                <h5>LOCATION</h5>
+        <div class="ms_footer_top">
+            <div class="container">
+                <div class="row text-center text-light">
+                    <div class="col-12 col-lg-4">
+                        Location
+                    </div>
+
+                    <div class="col-12 col-lg-4">
+                        Around the web
+                    </div>
+
+                    <div class="col-12 col-lg-4">
+                        about freelancer
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div class="container py-2">
-            <div class="row justify-content-center">
-                <div>
-                    <p class="text-center text-light">Copyright &#169; Your Website 2019</p>
-                </div>
+        <div class="ms_footer_bottom">
+            <div class="row">
+                    <p class="text-center text-light pt-3">Copyright &#169; Your Website 2019</p>
             </div>
         </div>
     </footer>
