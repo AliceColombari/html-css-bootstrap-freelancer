@@ -6,7 +6,7 @@
   }
 
 /* HEADER + FOOTER BACKGROND COLOR */
-header, footer{
+.ms_header, footer{
     background-color: #2C3E50;
   }
 
