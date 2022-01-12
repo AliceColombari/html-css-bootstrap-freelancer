@@ -42,10 +42,6 @@
     background-color: #fff;
 }
 
-.img-fluid{
-    border-radius: 20px;
-}
-
 .img_container{
     position: relative;
 }
@@ -56,8 +52,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    border-radius: 20px;
-    margin: 0 12px;
+    margin: 0px 12px;
     opacity: 0;
     background-color: #1ABC9C;
 }
