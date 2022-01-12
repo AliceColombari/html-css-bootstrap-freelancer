@@ -47,6 +47,8 @@
 }
 
 .ms_layover{
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,7 +60,6 @@
     background-color: rgba(25, 188, 156, 0.6);
     font-size: 100px;
     opacity: 0;
-    overflow: hidden;
 }
 
 .img_container:hover .ms_layover {
